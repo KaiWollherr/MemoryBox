@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --main-brand-color: rgb(230, 192, 0);
+    --primary-color: #21473d;
+    --secondary-color: #232933;
+    --light-secondary-color: #376bfb;
+    --text-color: white;
+    --secondary-text-color: #B3B4B6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    background-repeat: no-repeat;
+
+}
+
+section{
+    margin: 0;
+    width: 100vw; 
+}
+
+h1{
+    font-size: 6vw;
+    text-align: center;
+    color: var(--main-brand-color);  
+}
+
+h2{
+    font-size: 4vw;
+    text-align: center;
+    color: var(--main-brand-color);
+}
+
+h3{
+    font-size: 3vw;
+    text-align: center;
+    color: var(--main-brand-color);
+}
+
+h4{
+    font-size: 2vw;
+    text-align: center;
+    color: var(--main-brand-color);
+}
+
+p{
+    font-size: 1vw;
+    color: var(--text-color);
+
+}
+
+.subheading{
+    margin-top: 25px;
+    color: var(--secondary-text-color);
+}
+
+
+
+
